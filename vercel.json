@@ -1,7 +1,4 @@
 {
-  "buildCommand": "vuepress build .",
-  "outputDirectory": ".vuepress/dist",
-  "env": {
-    "NODE_OPTIONS": "--openssl-legacy-provider --max_old_space_size=8192"
-  }
+  "buildCommand": "NODE_OPTIONS=--openssl-legacy-provider vuepress build .",
+  "outputDirectory": ".vuepress/dist"
 }
